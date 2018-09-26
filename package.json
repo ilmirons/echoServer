@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ilmirons/echoserver.git"
+    "url": "https://github.com/ilmirons/echoServer.git"
   },
   "keywords": [
     "server",
@@ -18,7 +18,7 @@
   ],
   "author": "Andrea Mirone <andreamirone@gmail.com>",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/ilmirons/echoserver#readme",
+  "homepage": "https://github.com/ilmirons/echoServer",
   "devDependencies": {
     "chai": "4.x",
     "fact-checker": "1.x",
