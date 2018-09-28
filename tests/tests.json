@@ -1,0 +1,14 @@
+[{
+	"title": "Simple-test_works_good",
+	"requestOptions": {
+		"url": "http://localhost:3000"
+	},
+	"inputs": [
+		"req.hello.arr  = ['hello', 'world']",
+		"req.hello.arr2 = [{ hello: 'world', success: true }, { hello: 'people', success: true }]"
+	],
+	"checks": [
+		["$.hello.arr[0]", "hello"],
+		["$.hello.arr2[?(@.hello == \"world\")].success", true]
+	]
+}]
