@@ -2,6 +2,7 @@
   "requestOptions": {
     "method": "POST"
   },
+  // "foobar": 1,
   "body": {
     "hello": {
       "hello": "world"
