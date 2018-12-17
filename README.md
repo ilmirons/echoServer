@@ -1,2 +1,2 @@
-# echoServer
-Example project for fact-checker test tool
+# Fact-checker wrapper
+Wrapper for fact-checker test tool: provides pair-dependencies and test environment.
