@@ -2,4 +2,7 @@ node_modules/
 *.orig
 *.bak
 stuff/
+tests/testInputs
+tests/testOutputs
+tests/soap
 *.gen.*
