@@ -1,6 +1,6 @@
 {
   "name": "fact-checker-wrapper",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.2",
   "description": "Test platform/container for fact-checker",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "request": "2.x"
   },
   "dependencies": {
-    "mini-echo": "file:../mini-echo",
+    "mini-echo": "^1.1.1",
     "mocha": "^5.2.0",
     "mocha-jenkins-reporter": "^0.4.1"
   }
